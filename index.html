@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Khaled Abed Raboh – Junior Software Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef2f4;--surface:#fff;--ink:#10242c;--muted:#4d6670;--line:#cfdadf;--accent:#0b6e78;--accent-ink:#fff;--sig:#f2b134;color-scheme:light;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1a1f;--surface:#14262d;--ink:#e8f1f3;--muted:#9bb3bb;--line:#26404a;--accent:#4fc3cf;--accent-ink:#0d1a1f;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0d1a1f;--surface:#14262d;--ink:#e8f1f3;--muted:#9bb3bb;--line:#26404a;--accent:#4fc3cf;--accent-ink:#0d1a1f;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.6 "IBM Plex Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque","IBM Plex Sans",system-ui,sans-serif;line-height:1.1;margin:0}
+a{color:inherit}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:62rem;margin:0 auto;padding:0 1.25rem}
+nav{display:flex;gap:1.5rem;padding:1.25rem 0;flex-wrap:wrap;font-weight:500}
+nav a{text-decoration:none;color:var(--muted)}
+nav a:hover{color:var(--ink)}
+.hero{padding:3.5rem 0 4rem}
+.hero h1{font-size:clamp(3rem,10vw,6.5rem);font-weight:800;letter-spacing:-.03em}
+.hero p.role{font-size:clamp(1.2rem,3vw,1.6rem);margin:1.25rem 0 0;max-width:34rem}
+.hero p.sub{color:var(--muted);max-width:36rem;margin:1rem 0 2rem}
+.btns{display:flex;gap:.75rem;flex-wrap:wrap}
+.btn{display:inline-block;padding:.8rem 1.4rem;border-radius:.5rem;font-weight:500;text-decoration:none;border:2px solid var(--accent)}
+.btn.main{background:var(--accent);color:var(--accent-ink)}
+.btn.alt{color:var(--accent)}
+.status{display:inline-flex;align-items:center;gap:.6rem;border:1px solid var(--line);background:var(--surface);border-radius:2rem;padding:.35rem .9rem;margin-bottom:1.5rem;font-size:.95rem;color:var(--muted)}
+.dot{width:.6rem;height:.6rem;border-radius:50%;background:var(--sig);animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.35}}
+@media (prefers-reduced-motion:reduce){.dot{animation:none}html{scroll-behavior:auto}}
+section{padding:3rem 0;border-top:1px solid var(--line)}
+section>.wrap>h2{font-size:clamp(1.8rem,4vw,2.4rem);margin-bottom:1.5rem}
+.about{max-width:40rem}
+.grid{display:grid;gap:1.25rem;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:.75rem;padding:1.5rem}
+.card.big{grid-column:1/-1;border-left:6px solid var(--accent)}
+.card h3{font-size:1.5rem;margin-bottom:.4rem}
+.card p{margin:.4rem 0 1rem;color:var(--muted)}
+.card ul{margin:0 0 1rem;padding-left:1.2rem}
+.card li{margin:.25rem 0}
+.tags{display:flex;gap:.4rem;flex-wrap:wrap;padding:0;margin:0;list-style:none}
+.tags li{margin:0;padding:.15rem .65rem;border:1px solid var(--line);border-radius:1rem;font-size:.9rem}
+.skills dt{font-weight:500;margin-top:1rem}
+.skills dd{margin:.2rem 0 0;color:var(--muted)}
+.job{max-width:40rem}
+.job h3{font-size:1.25rem}
+.job small{color:var(--muted)}
+footer{padding:3rem 0 4rem;border-top:1px solid var(--line)}
+footer h2{font-size:clamp(1.8rem,4vw,2.4rem);margin-bottom:1rem}
+footer p{color:var(--muted);max-width:32rem}
+button.btn{font:inherit;font-weight:500;background:transparent;cursor:pointer}[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Main"><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#contact">Contact</a></nav>
+<header class="hero">
+<div class="status"><span class="dot" aria-hidden="true"></span>Open to junior developer roles in Amman</div>
+<h1>Khaled Abed Raboh</h1>
+<p class="role">Junior software developer building web apps with ASP.NET Core, and learning Android with Kotlin.</p>
+<p class="sub">Smart Device Computing graduate from Tafila Technical University.</p>
+<div class="btns"><a class="btn main" href="#projects">See my projects</a><a class="btn alt" href="mailto:khaled.ahmadabedraboh@gmail.com">Email me</a><a class="btn alt" href="Khaled_Abed_Raboh_CV.pdf" download>Download CV</a></div>
+</header>
+</div>
+
+<section id="about"><div class="wrap"><h2>About</h2>
+<p class="about">I finished my B.Sc. in Smart Device Computing in 2025. My strongest work so far is a full-stack transport platform for my university, plus a machine learning project that spots fake news. I also spent a summer as a network engineer intern, where I learned to troubleshoot problems and write down fixes so others can reuse them.</p>
+</div></section>
+
+<section id="projects"><div class="wrap"><h2>Projects</h2>
+<div class="grid">
+<article class="card big">
+<h3>TTU Transport System</h3>
+<p>A web platform that manages university bus transportation, with separate logins for students, drivers, and admins.</p>
+<ul>
+<li>Students view trips, pick a specific seat, and choose cash or card at checkout.</li>
+<li>Drivers send trip requests that the admin approves or rejects.</li>
+<li>Admins manage trips, users, roles, and bookings from a dashboard.</li>
+<li>Role-based access (Admin, Driver, Student) built on ASP.NET Core Identity.</li>
+<li>Route preview on a map (Leaflet and OpenStreetMap) with distance and travel time.</li>
+</ul>
+<ul class="tags"><li>ASP.NET Core MVC</li><li>C#</li><li>SQL Server</li><li>Entity Framework Core</li><li>Bootstrap</li><li>Leaflet</li></ul>
+</article>
+<article class="card">
+<h3>Fake News Detection</h3>
+<p>A classifier that tells real news articles from fake ones using their text, with a desktop app where you paste an article and get a verdict.</p>
+<ul>
+<li>Trained on about 45,000 labeled articles (23,481 fake and 21,417 real).</li>
+<li>Reached about 98.6% accuracy on a held-out 20% test set.</li>
+<li>Built a Tkinter app with Paste and Check buttons.</li>
+</ul>
+<ul class="tags"><li>Python</li><li>scikit-learn</li><li>NLP</li><li>TF-IDF</li><li>Logistic Regression</li><li>Tkinter</li></ul>
+</article>
+</div></div></section>
+
+<section id="skills"><div class="wrap"><h2>Skills</h2>
+<dl class="skills">
+<dt>Web and backend</dt><dd>C#, ASP.NET Core MVC, Entity Framework Core, SQL, Bootstrap</dd>
+<dt>Mobile</dt><dd>Android, Kotlin, Android Studio</dd>
+<dt>Data and ML</dt><dd>Python, NLP, MySQL, SQL Server</dd>
+<dt>Networking</dt><dd>TCP/IP, DNS, DHCP, subnetting, Cisco Packet Tracer</dd>
+<dt>Tools</dt><dd>Git, GitHub, C++</dd>
+<dt>Languages</dt><dd>Arabic (native), English (professional working proficiency)</dd>
+</dl></div></section>
+
+<section id="experience"><div class="wrap"><h2>Experience</h2>
+<div class="job">
+<h3>Network Engineer Intern, Texum Jordan</h3>
+<small>Jul 2025 – Sep 2025, Amman (onsite)</small>
+<p>Helped the IT team set up and check office network connections, configured routers and switches in Cisco Packet Tracer, reported issues to senior engineers, and wrote notes for fixing common connection problems.</p>
+</div></div></section>
+
+<footer id="contact"><div class="wrap">
+<h2>Let’s talk</h2>
+<p>I’m looking for a junior developer role where I can keep building and learning. Send me a message.</p>
+<div class="btns"><a class="btn main" href="mailto:khaled.ahmadabedraboh@gmail.com">khaled.ahmadabedraboh@gmail.com</a><a class="btn alt" href="https://linkedin.com/in/khlaedabedraboh">LinkedIn</a><a class="btn alt" href="Khaled_Abed_Raboh_CV.pdf" download>Download CV</a></div>
+</div></footer>
+</body>
+</html>
